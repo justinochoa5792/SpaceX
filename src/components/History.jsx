@@ -19,7 +19,7 @@ const History = () => {
       {history.map((showHis) => {
         return (
           <ul>
-            <li>{showHis.title}</li>
+            <li style={{ textDecoration: "underline" }}>{showHis.title}</li>
             <li> {showHis.event_date_utc}</li>
             <li>{showHis.details}</li>
           </ul>

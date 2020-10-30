@@ -26,10 +26,10 @@ const Home = () => {
       </li>
       <li>{info.summary}</li>
       <div>
-        <Link to="/history" style={{ margin: "20px", color: "black" }}>
+        <Link to="/history" style={{ margin: "20px", color: "white" }}>
           History
         </Link>
-        <Link to="/missions" style={{ color: "black" }}>
+        <Link to="/missions" style={{ color: "white" }}>
           Missions
         </Link>
       </div>

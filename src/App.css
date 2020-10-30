@@ -4,13 +4,14 @@
 }
 
 .home {
-  background-image: url("images/spacex-Ptd-iTdrCJM-unsplash copy.jpg");
+  background-image: url("images/casey-horner-RmoWqDCqN2E-unsplash\ copy.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 90vh;
+  height: 87vh;
   width: 100vw;
   font-size: x-large;
+  color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,19 +20,25 @@
 }
 
 .header {
+  background-image: url("images/w8It9Xr.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
+  padding: 40px;
   justify-content: space-between;
   align-items: center;
-  margin-right: 20px;
   width: 100vw;
 }
 
 .history {
+  background-color: #b8b8b8;
   align-items: center;
   padding: 40px;
 }
 
 .missions {
+  background-color: #b8b8b8;
   display: flex;
   flex-direction: column;
   justify-content: center;
